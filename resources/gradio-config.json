@@ -1,0 +1,86 @@
+{
+  "语言模型": {
+    "model": "DeepSeekChat",
+    "model_choices": [
+      "DeepSeekChat",
+      "ChatTongyi",
+      "QianfanChat",
+      "MoonshotChat",
+      "DouBaoChat",
+      "ZhipuChat"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [],
+    "output_type": "text",
+    "stream": true,
+    "chat": true,
+    "message_type": "text"
+  },
+  "图、视频理解": {
+    "model": "GLM4V",
+    "model_choices": [
+      "GLM4V"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [
+      "image",
+      "video"
+    ],
+    "output_type": "text",
+    "stream": true,
+    "chat": true,
+    "message_type": "modal"
+  },
+  "文生图、视频": {
+    "model": "Cogview4",
+    "model_choices": [
+      "Cogview4"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [
+      "image"
+    ],
+    "output_type": "image",
+    "stream": false,
+    "chat": false,
+    "message_type": "text"
+  },
+  "RAG": {
+    "model": "NaiveRag",
+    "model_choices": [
+      "NaiveRag",
+      "GraphRag"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [],
+    "output_type": "text",
+    "stream": false,
+    "chat": false,
+    "message_type": "text"
+  },
+  "Agent": {
+    "model": "Agent",
+    "model_choices": [
+      "ReactAgent"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [],
+    "output_type": "text",
+    "stream": true,
+    "chat": true,
+    "message_type": "text"
+  },
+  "CodeAgent": {
+    "model": "CodeAgent",
+    "model_choices": [
+      "CodeAgent",
+      "MultiAgent"
+    ],
+    "prompt_template": "无模板",
+    "input_types": [],
+    "output_type": "text",
+    "stream": true,
+    "chat": false,
+    "message_type": "text"
+  }
+}
